@@ -75,7 +75,6 @@ def clear_display():
 def result():
     global expression
     try:
-        # Evaluate the expression and update display
         expression = str(eval(expression))
         display.set(expression)
     except Exception:
